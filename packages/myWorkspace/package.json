@@ -1,0 +1,10 @@
+{
+  "name": "my_workspace",
+  "version": "0.2.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "types": "src/types/index.d.ts",
+  "dependencies": {
+    "web": "workspace:web"
+  }
+}

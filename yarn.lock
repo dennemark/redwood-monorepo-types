@@ -3962,7 +3962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:3.8.0":
+"@redwoodjs/api@npm:3.8.0, @redwoodjs/api@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/api@npm:3.8.0"
   dependencies:
@@ -4061,7 +4061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/core@npm:3.8.0":
+"@redwoodjs/core@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/core@npm:3.8.0"
   dependencies:
@@ -4159,7 +4159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:3.8.0":
+"@redwoodjs/forms@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/forms@npm:3.8.0"
   dependencies:
@@ -4174,7 +4174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/graphql-server@npm:3.8.0":
+"@redwoodjs/graphql-server@npm:3.8.0, @redwoodjs/graphql-server@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/graphql-server@npm:3.8.0"
   dependencies:
@@ -4268,7 +4268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/router@npm:3.8.0":
+"@redwoodjs/router@npm:3.8.0, @redwoodjs/router@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/router@npm:3.8.0"
   dependencies:
@@ -4371,7 +4371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/web@npm:3.8.0":
+"@redwoodjs/web@npm:3.8.0, @redwoodjs/web@npm:^3.8.0":
   version: 3.8.0
   resolution: "@redwoodjs/web@npm:3.8.0"
   dependencies:
@@ -7573,8 +7573,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 3.8.0
-    "@redwoodjs/graphql-server": 3.8.0
+    "@redwoodjs/api": ^3.8.0
+    "@redwoodjs/graphql-server": ^3.8.0
   languageName: unknown
   linkType: soft
 
@@ -17383,6 +17383,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"my_workspace@workspace:packages/myWorkspace":
+  version: 0.0.0-use.local
+  resolution: "my_workspace@workspace:packages/myWorkspace"
+  dependencies:
+    web: "workspace:web"
+  languageName: unknown
+  linkType: soft
+
 "nan@npm:^2.12.1":
   version: 2.17.0
   resolution: "nan@npm:2.17.0"
@@ -20567,7 +20575,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@redwoodjs/core": 3.8.0
+    "@redwoodjs/core": ^3.8.0
   languageName: unknown
   linkType: soft
 
@@ -23547,9 +23555,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
-    "@redwoodjs/forms": 3.8.0
-    "@redwoodjs/router": 3.8.0
-    "@redwoodjs/web": 3.8.0
+    "@redwoodjs/forms": ^3.8.0
+    "@redwoodjs/router": ^3.8.0
+    "@redwoodjs/web": ^3.8.0
+    humanize-string: 2.1.0
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
